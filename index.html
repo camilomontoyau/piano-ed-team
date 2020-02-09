@@ -1,0 +1,66 @@
+<html>
+
+<head>
+  <style>
+    .piano {
+      display: flex;
+      justify-content: center;
+    }
+
+    .tecla {
+      border: 1px solid black;
+      width: 50px;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .sostenido {
+      background-color: black;
+      color: white;
+      max-width: 40px;
+      max-height: 120px;
+      margin-left: -20px;
+      margin-right: -20px;
+      z-index: 1;
+    }
+
+    h1 {
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>#hablemosDeJS</h1>
+  <div class="piano">
+    <div class="tecla c" data-nota="c">c</div>
+    <div class="tecla sostenido cs" data-nota="cs">c#</div>
+    <div class="tecla d" data-nota="d">d</div>
+    <div class="tecla sostenido ds" data-nota="ds">d#</div>
+    <div class="tecla e" data-nota="e">e</div>
+    <div class="tecla f" data-nota="f">f</div>
+    <div class=" tecla sostenido fs" data-nota="fs">f#</div>
+    <div class="tecla g" data-nota="g">g</div>
+    <div class="tecla sostenido gs" data-nota="gs">g#</div>
+    <div class="tecla a" data-nota="a">a</div>
+    <div class="tecla sostenido as" data-nota="as">a#</div>
+    <div class="tecla b" data-nota="b">b</div>
+  </div>
+  <audio id="audio-a" src="/audios/a.wav" type="audio/wav"></audio>
+  <audio id="audio-as" src="/audios/as.wav" type="audio/wav"></audio>
+  <audio id="audio-b" src="/audios/b.wav" type="audio/wav"></audio>
+  <audio id="audio-c" src="/audios/c.wav" type="audio/wav"></audio>
+  <audio id="audio-cs" src="/audios/cs.wav" type="audio/wav"></audio>
+  <audio id="audio-d" src="/audios/d.wav" type="audio/wav"></audio>
+  <audio id="audio-ds" src="/audios/ds.wav" type="audio/wav"></audio>
+  <audio id="audio-e" src="/audios/e.wav" type="audio/wav"></audio>
+  <audio id="audio-f" src="/audios/f.wav" type="audio/wav"></audio>
+  <audio id="audio-fs" src="/audios/fs.wav" type="audio/wav"></audio>
+  <audio id="audio-g" src="/audios/g.wav" type="audio/wav"></audio>
+  <audio id="audio-gs" src="/audios/gs.wav" type="audio/wav"></audio>
+
+</body>
+
+</html>
